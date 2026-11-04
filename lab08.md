@@ -43,6 +43,9 @@ As the Input Feeder, I present the Food, Service, and Price features for each of
 I then reveal the correct answer so the team can check the prediction. When a prediction is incorrect, I participate in the discussion about which features should have more influence and how the weights should change. We complete any adjustments before moving to the next card.
 
 ### Decision Node's Role
+As the Decision Node, I use the current token weights to predict LIKE or DISLIKE for each card. I state my prediction before the answer is revealed, so the Observer/Tracker can record it.
+
+When I’m wrong, I explain my reasoning so the team can see which feature misled me. I then use the updated weights for the next cards, and the final weights for the test set.
 
 ### Tracker's Role
 
