@@ -11,7 +11,13 @@ feedback, and weight adjustments.
 ## 2. Network Structure
 The network has three inputs: Food, Service, and Price. Each input has a weight representing its influence on the decision.
 
-Food, Service, and Price → Decision Node → Like / Dislike
+```mermaid
+flowchart LR
+F[Food]-->|Food weight| D[Decision Node]
+S[Service]-->|Service weight| D
+P[Price]-->|Price weight| D
+D --> O[Like/Dislike]
+```
 
 ## 3. Team Roles
 
