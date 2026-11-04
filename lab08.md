@@ -73,6 +73,7 @@ During testing, I present the Food, Service, and Price features for Cards 11-13 
 After each prediction is recorded, I reveal the correct answer. Keeping the answer hidden until predictions are recorded helps the team assess its performance on the test scenarios.
 
 ### Decision Node's Role
+During testing, I predict LIKE or DISLIKE for Cards 11–13 using the final weights from training, without changing them. I state each prediction before the answer is revealed, so the Observer/Tracker can record it.
 
 ### Tracker's Role
 During testing, I record the Decision Node's prediction for Cards 11-13 before the answer is revealed. The weights are not changed during this phase. After each reveal, I mark the prediction as correct or incorrect, then compare the testing accuracy with the training accuracy.
