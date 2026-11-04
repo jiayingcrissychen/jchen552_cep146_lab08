@@ -52,6 +52,13 @@ As the Observer/Tracker, I record the Decision Node's prediction for each traini
 
 When a prediction is wrong, I take part in the discussion by suggesting which feature should receive more tokens. I then record the updated weights and the reason for the change, so the team can see how the weights evolve over the 10 cards.
 
+### Initially Weight
+
+|Feature|+1|+0|-1|
+|----|----|-------|-----|
+|Food|Great, Excellent
+
+
 ### Training Input
 |Card|Food|Service|Price|
 |----|----|-------|-----|
