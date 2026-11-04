@@ -111,9 +111,9 @@ During testing, I record the Decision Node's prediction for Cards 11-13 before t
 ### Test Inputs
 |Card|Food / Service / Price|Weights (F/S/P)|Score|Prediction|Actual|Result|
 |----|----------------------|---------------|-----|----------|------|------|
-|11|Good/Excellent/Cheap|2/1/1|+1*2/+1/+1=5|LIKE|
-|12|Bad/Bad/Expensive|2/1/1|-1*2/-1/-1=-5|DISLIKE|
-|13|Excellent/Great/Moderate|2/1/1|+1*2/+1/+0=3|LIKE|
+|11|Good/Excellent/Cheap|2/1/1|+1*2/+1/+1=5|LIKE|LIKE|Correct|
+|12|Bad/Bad/Expensive|2/1/1|-1*2/-1/-1=-5|DISLIKE|DISLIKE|Correct|
+|13|Excellent/Great/Moderate|2/1/1|+1*2/+1/+0=3|LIKE|LIKE|Correct|
 
 ## 6. Team Comparison
 
