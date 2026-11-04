@@ -80,7 +80,7 @@ Score = (Food value × Food weight)
 ### Training Input
 |Card|Food / Service / Price|Weights (F/S/P)|Score|Prediction|Actual|Result|
 |----|----------------------|---------------|-----|----------|------|------|
-|1|Great/Poor/Cheap|1/1/1|+1/-1/+1=1|LIKE|
+|1|Great/Poor/Cheap|1/1/1|+1/-1/+1=1|LIKE|LIKE|Correct|
 |2|Bad/Great/Expensive|
 |3|Good/Okay/Moderate|
 |4|Poor/Poor/Cheap|
