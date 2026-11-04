@@ -1,7 +1,7 @@
 # Lab08: How a Neural Network Learns
 
-**Team Member:** JiayingChen, Leslie Nguyen, Jihyun Park
-**Date:** 2026-11-04
+- **Team Members:** Jiaying Chen, Leslie Nguyen, Jihyun Park
+- **Date:** 2026-11-04
 
 ## 1. Objective
 The objective of this lab is to understand how a neural network learns through predictions, 
@@ -20,16 +20,31 @@ D --> O[Like/Dislike]
 
 ## 3. Team Roles
 
--Input Feeder: Jiaying Chen  
--Decision Node: Leslie Nguyen  
--Observers / Trackers: Jihyun Park  
+- Input Feeder: Jiaying Chen  
+- Decision Node: Leslie Nguyen  
+- Observers / Trackers: Jihyun Park  
 
 ## 4. Training Phase
+
+### Training Procedure
+For each training scenario, our team follows these steps:
+1. The Input Feeder readers the three input features without revealing the correct answer.
+2. The Decision Node predicts Like or Dislike using the current feature weights and explains the decision.
+3. The Tracker records the prediction.
+4. The Input Feeder reveals the correct customer opinion.
+5. If the prediction is incorrect, the team discusses and adjusts
+   the weights. The Tracker records the updated weights and reasons.
+
+The updated weights are used for the next training scenario.
 
 ### Input Feeder's Role
 As the Input Feeder, I present the Food, Service, and Price features for each of the 10 training cards. I keep the customer opinion hidden until the Decision Node makes a prediction and the Observer/Tracker records it.
 
 I then reveal the correct answer so the team can check the prediction. When a prediction is incorrect, I participate in the discussion about which features should have more influence and how the weights should change. We complete any adjustments before moving to the next card.
+
+### Decision Node's Role
+
+### Tracker's Role
 
 ### Training Input
 |Card|Food|Service|Price|
@@ -37,7 +52,7 @@ I then reveal the correct answer so the team can check the prediction. When a pr
 |1|Great|Poor|Cheap|
 |2|Bad|Great|Expensive|
 |3|Good|Okay|Moderate|
-|4|Poor|Poor|CHeap|
+|4|Poor|Poor|Cheap|
 |5|Excellent|Excellent|Expensive|
 |6|Okay|Bad|Moderate|
 |7|Great|Okay|Cheap|
@@ -50,6 +65,10 @@ I then reveal the correct answer so the team can check the prediction. When a pr
 During testing, I present the Food, Service, and Price features for Cards 11-13 without revealing the customer opinions. The Decision Node uses the final weights learned during training, which remain unchanged throughout testing.
 
 After each prediction is recorded, I reveal the correct answer. Keeping the answer hidden until predictions are recorded helps the team assess its performance on the test scenarios.
+
+### Decision Node's Role
+
+### Tracker's Role
 
 ### Test Inputs
 |Card|Food|Service|Price|
