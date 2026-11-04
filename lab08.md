@@ -91,6 +91,11 @@ Score = (Food value × Food weight)
 |9|Excellent/Poor/Moderate|1/1/1|+1/-1/+0=0|DISLIKE|LIKE|Incorrect|
 |10|Okay/Okay/Expensive|
 
+After reviewing the prediction results, our team increased the Food weight from 1 to 2 while keeping the Service and Price weights at 1. We then tested the updated weights using Training Cards 1–9. All nine predictions were correct, so we decided to keep the updated weights for the remaining training cards and testing phase.  
+**Updated Score = (Food value × 2 Food weight)
+      + (Service value × Service weight)
+      + (Price value × Price weight)**
+
 ## 5. Testing Phase
 ### Input Feeder's Role
 During testing, I present the Food, Service, and Price features for Cards 11-13 without revealing the customer opinions. The Decision Node uses the final weights learned during training, which remain unchanged throughout testing.
