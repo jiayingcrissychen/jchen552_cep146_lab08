@@ -89,7 +89,7 @@ Score = (Food value × Food weight)
 |7|Great/Okay/Cheap|1/1/1|+1/+0/+1=2|LIKE|LIKE|Correct|
 |8|Poor/Excellent/Expensive|1/1/1|-1/+1/-1=-1|DISLIKE|DISLIKE|Correct|
 |9|Excellent/Poor/Moderate|1/1/1|+1/-1/+0=0|DISLIKE|LIKE|Incorrect|
-|10|Okay/Okay/Expensive|2/1/1|+0/+0/-1=-1|DISLIKE|DISLIKE|Correct|
+|10|Okay/Okay/Expensive|2/1/1|+0*2/+0/-1=-1|DISLIKE|DISLIKE|Correct|
 
 After reviewing the prediction results, our team increased the Food weight from 1 to 2 while keeping the Service and Price weights at 1. We then tested the updated weights using Training Cards 1–9. All nine predictions were correct, so we decided to keep the updated weights for the remaining training cards and testing phase.  
 **Updated Score = (Food value × 2 Food weight)
@@ -109,11 +109,12 @@ During testing, I predict LIKE or DISLIKE for Cards 11–13 using the final weig
 During testing, I record the Decision Node's prediction for Cards 11-13 before the answer is revealed. The weights are not changed during this phase. After each reveal, I mark the prediction as correct or incorrect, then compare the testing accuracy with the training accuracy.
 
 ### Test Inputs
-|Card|Food|Service|Price|
-|----|----|-------|-----|
-|11|Good|Excellent|Cheap|
-|12|Bad|Bad|Expensive|
-|13|Excellent|Great|Moderate|
+|Card|Food / Service / Price|Weights (F/S/P)|Score|Prediction|Actual|Result|
+|----|----------------------|---------------|-----|----------|------|------|
+|11|Good/Excellent/Cheap|2/1/1|+1*2/+1/+1=5|LIKE|
+|12|Bad/Bad/Expensive|2/1/1|-1*2/-1/-1=-5|DISLIKE|
+|13|Excellent/Great/Moderate|2/1/1|+1*2/+1/+0=3|LIKE|
+
 ## 6. Team Comparison
 
 ## 7. Reflection
