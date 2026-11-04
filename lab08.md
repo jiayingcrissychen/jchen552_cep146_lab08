@@ -116,6 +116,8 @@ During testing, I record the Decision Node's prediction for Cards 11-13 before t
 |13|Excellent/Great/Moderate|2/1/1|+1*2/+1/+0=3|LIKE|LIKE|Correct|
 
 ## 6. Team Comparison
+reimir jashari
+Bryan Velasco
 
 ## 7. Reflection
 
