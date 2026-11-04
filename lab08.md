@@ -123,8 +123,16 @@ Bryan Velasco
 
 ### How did your predictions improve?
 
+At the beginning, our team used equal weights of 1 for all three features. After reviewing the predictions, we increased the Food weight from 1 to 2 because we wanted Food to have more influence on the final decision. With the updated weights, our predictions for Training Cards 1–9 were correct when we tested them again. We also correctly predicted all three testing cards. This showed that adjusting the weights helped improve our predictions.
+
 ### How did weights help you learn?
+
+Weights helped us understand that each input feature can have a different level of influence on the final decision. By increasing the Food weight, we made Food more important than Service and Price. We learned that changing weights can affect the final score and help the network make better predictions based on the feedback it receives.
 
 ### What would happen with more layers or input?
 
+With more inputs, the network could consider additional factors such as restaurant cleanliness, atmosphere, and waiting time. This could help it make more detailed decisions. More layers could also allow the network to recognize more complex patterns and relationships between different features. However, the network might need more training data and time to learn accurately.
+
 ### How does this reflect how real AI works?
+
+This lab demonstrates a basic idea of how real AI systems learn. A neural network receives input data, calculates an output using weights, and compares its prediction with the correct answer. During training, the weights are adjusted based on errors to improve future predictions. Real AI systems use much more complex networks and larger amounts of data, but the basic idea of learning through feedback and weight adjustments is similar.
