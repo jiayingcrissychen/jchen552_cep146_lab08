@@ -48,6 +48,9 @@ As the Decision Node, I use the current token weights to predict LIKE or DISLIKE
 When I’m wrong, I explain my reasoning so the team can see which feature misled me. I then use the updated weights for the next cards, and the final weights for the test set.
 
 ### Tracker's Role
+As the Observer/Tracker, I record the Decision Node's prediction for each training card before the correct answer is revealed. After the reveal, I mark the prediction as correct or incorrect and update the running total of correct predictions.
+
+When a prediction is wrong, I take part in the discussion by suggesting which feature should receive more tokens. I then record the updated weights and the reason for the change, so the team can see how the weights evolve over the 10 cards.
 
 ### Training Input
 |Card|Food|Service|Price|
@@ -72,6 +75,7 @@ After each prediction is recorded, I reveal the correct answer. Keeping the answ
 ### Decision Node's Role
 
 ### Tracker's Role
+During testing, I record the Decision Node's prediction for Cards 11-13 before the answer is revealed. The weights are not changed during this phase. After each reveal, I mark the prediction as correct or incorrect, then compare the testing accuracy with the training accuracy.
 
 ### Test Inputs
 |Card|Food|Service|Price|
