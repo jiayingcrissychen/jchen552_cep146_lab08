@@ -1,7 +1,6 @@
 # Lab08: How a Neural Network Learns
 
-**Name:** JiayingChen
-**Student ID:** 116924267
+**Team Member:** JiayingChen 
 **Date:** 2026-11-04
 
 ## 1. Objective
@@ -21,7 +20,7 @@ D --> O[Like/Dislike]
 
 ## 3. Team Roles
 
--Input Feeder:
+-Input Feeder:Jiaying Chen
 -Decision Node:
 -Observers / Trackers:
 
