@@ -81,7 +81,7 @@ Score = (Food value × Food weight)
 |Card|Food / Service / Price|Weights (F/S/P)|Score|Prediction|Actual|Result|
 |----|----------------------|---------------|-----|----------|------|------|
 |1|Great/Poor/Cheap|1/1/1|+1/-1/+1=1|LIKE|LIKE|Correct|
-|2|Bad/Great/Expensive|1/1/1|-1/+1/-1=-1|DISLIKE|
+|2|Bad/Great/Expensive|1/1/1|-1/+1/-1=-1|DISLIKE|DISLIKE|Correct|
 |3|Good/Okay/Moderate|
 |4|Poor/Poor/Cheap|
 |5|Excellent/Excellent/Expensive|
