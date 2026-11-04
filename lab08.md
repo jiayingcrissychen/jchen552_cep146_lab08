@@ -116,8 +116,18 @@ During testing, I record the Decision Node's prediction for Cards 11-13 before t
 |13|Excellent/Great/Moderate|2/1/1|+1*2/+1/+0=3|LIKE|LIKE|Correct|
 
 ## 6. Team Comparison
-reimir jashari
-Bryan Velasco
+
+| Team Member | Starting Weights (F/S/P) | Final Weights (F/S/P) | Training Accuracy | Testing Accuracy | Most Important Feature |
+|---|---|---|---|---|---|
+| Our team | 1/1/1 | 2/1/1 | 9/10 | 3/3 | Food |
+| Other team #1 | 1/1/2 | 3/1/1 | 7/10 | 3/3 | Food |
+| Other team #2 | 1/2/1 | 2/2/1 | 6/10 | 3/3 | Food and Service |
+
+**Who improved the most?** Other team #1 improved the most. They started with Price weighted highest and made several early mistakes. After shifting weight to Food, they got the remaining cards correct.
+
+**Which features were most important?** All teams agreed that Food mattered most. In every card, good food or better meant LIKE, and okay food or worse meant DISLIKE. Our team found the pattern fastest because we started with equal weights and needed only one adjustment.
+
+**What we noticed:** Every team scored 3/3 on the test set, even teams with different final weights. This suggests the three test cards were easy cases, where food, service, and price all pointed the same way. A tougher test card, such as great food with bad service at an expensive price, would show more clearly which team's weights learned the real pattern.
 
 ## 7. Reflection
 
