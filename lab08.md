@@ -82,7 +82,7 @@ Score = (Food value × Food weight)
 |----|----------------------|---------------|-----|----------|------|------|
 |1|Great/Poor/Cheap|1/1/1|+1/-1/+1=1|LIKE|LIKE|Correct|
 |2|Bad/Great/Expensive|1/1/1|-1/+1/-1=-1|DISLIKE|DISLIKE|Correct|
-|3|Good/Okay/Moderate|
+|3|Good/Okay/Moderate|1/1/1|+1/+0/+0=1|LIKE
 |4|Poor/Poor/Cheap|
 |5|Excellent/Excellent/Expensive|
 |6|Okay/Bad/Moderate|
