@@ -36,7 +36,14 @@ I then reveal the correct answer so the team can check the prediction. When a pr
 |----|----|-------|-----|
 |1|Great|Poor|Cheap|
 |2|Bad|Great|Expensive|
-|3|Good|
+|3|Good|Okay|Moderate|
+|4|Poor|Poor|CHeap|
+|5|Excellent|Excellent|Expensive|
+|6|Okay|Bad|Moderate|
+|7|Great|Okay|Cheap|
+|8|Poor|Excellent|Expensive|
+|9|Excellent|Poor|Moderate|
+|10|Okay|Okay|Expensive|
 
 ## 5. Testing Phase
 ### Input Feeder's Role
@@ -44,6 +51,12 @@ During testing, I present the Food, Service, and Price features for Cards 11-13 
 
 After each prediction is recorded, I reveal the correct answer. Keeping the answer hidden until predictions are recorded helps the team assess its performance on the test scenarios.
 
+### Test Inputs
+|Card|Food|Service|Price|
+|----|----|-------|-----|
+|11|Good|Excellent|Cheap|
+|12|Bad|Bad|Expensive|
+|13|Excellent|Great|Moderate|
 ## 6. Team Comparison
 
 ## 7. Reflection
