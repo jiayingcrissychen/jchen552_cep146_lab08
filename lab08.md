@@ -1,6 +1,6 @@
 # Lab08: How a Neural Network Learns
 
-**Team Member:** JiayingChen 
+**Team Member:** JiayingChen, Leslie Nguyen,  
 **Date:** 2026-11-04
 
 ## 1. Objective
@@ -20,8 +20,8 @@ D --> O[Like/Dislike]
 
 ## 3. Team Roles
 
--Input Feeder:Jiaying Chen
--Decision Node:
+-Input Feeder: Jiaying Chen
+-Decision Node: Leslie Nguyen
 -Observers / Trackers:
 
 ## 4. Training Phase
