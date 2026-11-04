@@ -63,9 +63,9 @@ These scores represent the input values, not the feature weights.
 | Price | Cheap | Moderate | Expensive |
 
 ### Initially Weight
-- Food: 1
-- Service: 1
-- Price: 1
+- F/Food: 1
+- S/Service: 1
+- P/Price: 1
 
 ### Prediction Rule
 
@@ -110,7 +110,7 @@ During testing, I record the Decision Node's prediction for Cards 11-13 before t
 
 ### Test Inputs
 |Card|Food / Service / Price|Weights (F/S/P)|Score|Prediction|Actual|Result|
-|----|----------------------|---------------|-----|----------|------|------|
+|---|---|---|---|---|---|---|
 |11|Good/Excellent/Cheap|2/1/1|+1*2/+1/+1=5|LIKE|LIKE|Correct|
 |12|Bad/Bad/Expensive|2/1/1|-1*2/-1/-1=-5|DISLIKE|DISLIKE|Correct|
 |13|Excellent/Great/Moderate|2/1/1|+1*2/+1/+0=3|LIKE|LIKE|Correct|
