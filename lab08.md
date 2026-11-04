@@ -88,7 +88,7 @@ Score = (Food value × Food weight)
 |6|Okay/Bad/Moderate|1/1/1|+0/-1/+0=-1|DISLIKE|DISLIKE|Correct|
 |7|Great/Okay/Cheap|1/1/1|+1/+0/+1=2|LIKE|LIKE|Correct|
 |8|Poor/Excellent/Expensive|1/1/1|-1/+1/-1=-1|DISLIKE|DISLIKE|Correct|
-|9|Excellent/Poor/Moderate|
+|9|Excellent/Poor/Moderate|1/1/1|+1/-1/+0=0|DISLIKE|
 |10|Okay/Okay/Expensive|
 
 ## 5. Testing Phase
