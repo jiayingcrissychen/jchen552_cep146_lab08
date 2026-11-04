@@ -78,18 +78,18 @@ Score = (Food value × Food weight)
 
 
 ### Training Input
-|Card|Food|Service|Price|
-|----|----|-------|-----|
-|1|Great|Poor|Cheap|
-|2|Bad|Great|Expensive|
-|3|Good|Okay|Moderate|
-|4|Poor|Poor|Cheap|
-|5|Excellent|Excellent|Expensive|
-|6|Okay|Bad|Moderate|
-|7|Great|Okay|Cheap|
-|8|Poor|Excellent|Expensive|
-|9|Excellent|Poor|Moderate|
-|10|Okay|Okay|Expensive|
+|Card|Food / Service / Price|Weights (F/S/P)|Score|Prediction|Actual|Result|
+|----|----------------------|---------------|-----|----------|------|------|
+|1|Great/Poor/Cheap|1/1/1|+1/-1/+1=1|LIKE|
+|2|Bad/Great/Expensive|
+|3|Good/Okay/Moderate|
+|4|Poor/Poor/Cheap|
+|5|Excellent/Excellent/Expensive|
+|6|Okay/Bad/Moderate|
+|7|Great/Okay/Cheap|
+|8|Poor/Excellent/Expensive|
+|9|Excellent/Poor/Moderate|
+|10|Okay/Okay/Expensive|
 
 ## 5. Testing Phase
 ### Input Feeder's Role
