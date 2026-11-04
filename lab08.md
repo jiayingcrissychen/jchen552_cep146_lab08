@@ -52,17 +52,29 @@ As the Observer/Tracker, I record the Decision Node's prediction for each traini
 
 When a prediction is wrong, I take part in the discussion by suggesting which feature should receive more tokens. I then record the updated weights and the reason for the change, so the team can see how the weights evolve over the 10 cards.
 
-### Initially Weight
-- Food: 1
-- Service: 1
-- Price: 1
-
+### Input Encoding
+We convert the input features into numerical scores.
+These scores represent the input values, not the feature weights.
 
 | Feature | +1 | 0 | -1 |
 |---|---|---|---|
 | Food |Great, Excellent, Good |Okay|Poor, Bad|
 | Service| Great, Excellent, Good | Okay | Poor, Bad |
 | Price | Cheap | Moderate | Expensive |
+
+### Initially Weight
+- Food: 1
+- Service: 1
+- Price: 1
+
+### Prediction Rule
+
+Score = (Food value × Food weight)
+      + (Service value × Service weight)
+      + (Price value × Price weight)
+
+- Score > 0: Like
+- Score <= 0: Dislike
 
 
 ### Training Input
